@@ -2,7 +2,7 @@
 
 int main() {
     int a, b, c;
-    printf("Nhap lan luot do dai 3 canh: ");
+    printf("Nhap lan luot do dai 3 canh cua tam giac: ");
     scanf("%d %d %d", &a, &b, &c);
 
     if (a + b > c && a + c > b && b + c > a) {
@@ -17,10 +17,10 @@ int main() {
         } else if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a) {
             printf("Tam giac vuong co 1 goc 90 do");
         } else {
-            printf("Tam giac thuong");
+            printf("Tam giac thuong khong co gi dac biet");
         }
     } else {
-        printf("Khong phai tam giac");
+        printf("Khong phai tam giac vi sai kich thuoc");
     }
 
     return 0;
