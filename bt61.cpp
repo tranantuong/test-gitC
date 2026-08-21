@@ -3,7 +3,7 @@
 int main() {
 	char s[200];
 	printf("Nhap chuoi ky tu: ");
-	fgets(s,100,stdin);
+	fgets(s,200,stdin);
 	printf("Chuoi ban dau la: ");
 	puts(s); 
 	strrev(s);
